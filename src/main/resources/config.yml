@@ -1,0 +1,11 @@
+# -1 for default value and motd 2 lignes maximum / the protocol version can not be modified if you run vanilla server
+hoverMessage:
+  - "TestHover"
+  - "TestHover2"
+motd:
+  - "Je suis un motd"
+  - "Je suis la 2ieme ligne"
+protocolVersionName: "-1"
+protocolVersion: -1
+onlinePlayer: -1
+maxOnlinePlayer: 100
