@@ -38,11 +38,10 @@ repositories {
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+
     compileOnly group: 'net.md-5', name: 'bungeecord-api', version: '1.17-R0.1-SNAPSHOT'
     implementation group: 'io.netty', name: 'netty-all', version: '4.1.65.Final'
-
-    //extraLibs 'com.github.azefgh456:ACore-BUNGEECORD-API:1.0.4'
-    compile 'com.github.azefgh456:ACore-BUNGEECORD-API:1.0.3'
+    compile 'com.github.azefgh456:ACore-BUNGEECORD-API:1.0.4'
 
 }
 
